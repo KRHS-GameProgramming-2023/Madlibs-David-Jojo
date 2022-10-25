@@ -20,7 +20,14 @@ def getMenuOption(debug = False):
             option == "story 1" or
             option == "story1"):
                 option = "1"
-                goodInput = True        
+                goodInput = True
+        elif (option == "2" or 
+            option == "two" or 
+            option == "story 2" or
+            option == "story2"):
+                option = "2"
+                goodInput = True
+        
                 
             
         else:
@@ -79,6 +86,56 @@ def getSport(prompt, debug = False):
             goodInput = False
             print ("UNACCEPTABLE")
         elif word.lower() not in sports:
+            goodInput = False
+            print ("INVALID")
+        
+    return word
+    
+def isSwear(word, debug = False):
+    if debug: print("isSwear Function")
+    if word.lower() in swearList:
+        return True
+    else:
+        return False
+
+def getCar(prompt, debug = False):
+    if debug: print("getCar Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("UNACCEPTABLE")
+        
+    return word
+    
+def getCar(prompt, debug = False):
+    if debug: print("getCar Function")
+    
+    goodInput = False
+    
+    Cars = ["Car",
+            "Truck",
+            "Towtruck",
+            "Supercar",
+            "Racecar",
+            "Cruizer",
+            "Cop Car"
+            "1969 Plymouth Cuda",
+            "Firetruck",
+            "Supra"
+              ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("UNACCEPTABLE")
+        elif word.lower() not in Cars:
             goodInput = False
             print ("INVALID")
         
