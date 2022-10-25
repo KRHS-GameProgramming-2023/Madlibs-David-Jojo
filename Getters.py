@@ -97,8 +97,8 @@ def isSwear(word, debug = False):
     else:
         return False
 
-def getCar(prompt, debug = False):
-    if debug: print("getCar Function")
+def getVehicle(prompt, debug = False):
+    if debug: print("getVehicle Function")
     
     goodInput = False
     
@@ -111,12 +111,12 @@ def getCar(prompt, debug = False):
         
     return word
     
-def getCar(prompt, debug = False):
-    if debug: print("getCar Function")
+def getVehicle(prompt, debug = False):
+    if debug: print("getVehicle Function")
     
     goodInput = False
     
-    Cars = ["Car",
+    Vehicle =  ["Car",
             "Truck",
             "Towtruck",
             "Supercar",
@@ -139,6 +139,13 @@ def getCar(prompt, debug = False):
             print ("INVALID")
         
     return word
+    
+def isSwear(word, debug = False):
+    if debug: print("isSwear Function")
+    if word.lower() in swearList:
+        return True
+    else:
+        return False
     
 def isSwear(word, debug = False):
     if debug: print("isSwear Function")
