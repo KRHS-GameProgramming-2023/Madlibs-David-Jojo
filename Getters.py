@@ -1,5 +1,3 @@
-#David Was Here
-
 def getMenuOption(debug = False):
     if debug: print("getMenuOption Function")
     
