@@ -1,5 +1,3 @@
-#David Was Here
-
 def getMenuOption(debug = False):
     if debug: print("getMenuOption Function")
     
@@ -71,7 +69,8 @@ def getSport(prompt, debug = False):
               "sleding",
               "hiking",
               "catch",
-              "video game/s",
+              "video game",
+              "video games",
               "throwing",
               "chess",
               "kickball",
@@ -153,11 +152,25 @@ swearList = ["poop",
              "shit",
              "fuck",
              "ass",
-             "chicken",
-             "cheese",
              "motherfucker",
              "fucker",
              "dick",
              "asshole",
              "dipstick",
+             "retard",
+             "idiot",
+             "cunt",
+             "dickhead",
+             "fucking",
+             "nigger",
+             "pussy",
+             "penis",
+             "vagina",
+             "boobs",
+             "boob",
+             "breast",
+             "breasts",
+             "sex",
+             "fucked",
+             "bitch",
 ]
