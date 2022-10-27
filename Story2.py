@@ -9,7 +9,7 @@ def Story2(debug = False):
     object1 = getWord("Enter a object: ", debug)
     vehicle2 = getWord("Enter a vehicle: ", debug)
     time1 = getWord("Enter a time: ", debug)
-    buidling1 = getWord("Enter a buidling: ", debug)
+    building1 = getWord("Enter a building: ", debug)
     
     
     out = "\n"
