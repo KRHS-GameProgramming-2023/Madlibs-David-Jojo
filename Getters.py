@@ -97,8 +97,8 @@ def isSwear(word, debug = False):
     else:
         return False
 
-def getCar(prompt, debug = False):
-    if debug: print("getCar Function")
+def getVehicle(prompt, debug = False):
+    if debug: print("getVehicle Function")
     
     goodInput = False
     
@@ -111,22 +111,22 @@ def getCar(prompt, debug = False):
         
     return word
     
-def getCar(prompt, debug = False):
-    if debug: print("getCar Function")
+def getVehicle(prompt, debug = False):
+    if debug: print("getVehicle Function")
     
     goodInput = False
     
-    Car1 = ["Car",
-            "Truck",
-            "Towtruck",
-            "Supercar",
-            "Racecar",
-            "Cruizer",
-            "Cop Car"
-            "1969 Plymouth Cuda",
-            "Firetruck",
-            "Supra"
-              ]
+    vehicles =  ["car",
+                 "truck",
+                 "towtruck",
+                 "supercar",
+                 "racecar",
+                 "cruizer",
+                 "cop Car",
+                 "1969 plymouth cuda",
+                 "firetruck",
+                 "supra",
+                 ]
     
     while not goodInput:
         word = input(prompt)
@@ -134,7 +134,7 @@ def getCar(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("UNACCEPTABLE")
-        elif word.lower() not in Car1:
+        elif word.lower() not in vehicles:
             goodInput = False
             print ("INVALID")
         
@@ -146,6 +146,7 @@ def isSwear(word, debug = False):
         return True
     else:
         return False
+
 
 swearList = ["poop",
              "pee",
