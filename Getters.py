@@ -116,7 +116,7 @@ def getCar(prompt, debug = False):
     
     goodInput = False
     
-    Cars = ["Car",
+    Car1 = ["Car",
             "Truck",
             "Towtruck",
             "Supercar",
@@ -134,7 +134,7 @@ def getCar(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("UNACCEPTABLE")
-        elif word.lower() not in Cars:
+        elif word.lower() not in Car1:
             goodInput = False
             print ("INVALID")
         
