@@ -19,5 +19,6 @@ def Story2(debug = False):
     out += " then we called the E.M.T's and when they got there \n they loaded us into a " + thing1
     out += " \n It took " + time1
     out += " for the E.M.T's to arrive at " + building1
+    out += " 
     
     return out
