@@ -8,7 +8,7 @@ def Story2(debug = False):
     vehicle1 = getVehicle("Enter a vehicle: ", debug)
     object1 = getWord("Enter a object: ", debug)
     thing1 = getWord("Enter a thing: ", debug)
-    time1 = getWord("Enter a minute: ", debug)
+    time1 = getWord("Enter a amount of minutes: ", debug)
     building1 = getWord("Enter a building: ", debug)
     
     
@@ -18,6 +18,6 @@ def Story2(debug = False):
     out += " \n He wasn't paying attention and crashed into a " + object1
     out += " then we called the E.M.T's and when they got there \n they loaded us into a " + thing1
     out += " \n It took " + time1
-    out += " for the E.M.T's to arrive at " + building1
+    out += " minutes for the E.M.T's to arrive at the " + building1
     
     return out
