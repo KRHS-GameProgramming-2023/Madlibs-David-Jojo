@@ -21,6 +21,6 @@ def Story2(debug = False):
     out += " \n It took " + time1
     out += " minutes for the E.M.T's to arrive at the " + building1
     out += " \n After the arriving "
-    out += " the doctors diagnosed us with " + injury1
+    out += " the doctors diagnosed us with a " + injury1
     
     return out
