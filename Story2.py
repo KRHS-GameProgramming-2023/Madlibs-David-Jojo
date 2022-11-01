@@ -10,6 +10,7 @@ def Story2(debug = False):
     thing1 = getWord("Enter a thing: ", debug)
     time1 = getWord("Enter a minute: ", debug)
     building1 = getWord("Enter a building: ", debug)
+    injury1 = getWord("Enter a injury: ", debug)
     
     
     out = "\n"
@@ -19,6 +20,6 @@ def Story2(debug = False):
     out += " then we called the E.M.T's and when they got there \n they loaded us into a " + thing1
     out += " \n It took " + time1
     out += " for the E.M.T's to arrive at " + building1
-    out += " 
+    out += " \n After the doctors checked us they diagnosed us with " + injury1
     
     return out
