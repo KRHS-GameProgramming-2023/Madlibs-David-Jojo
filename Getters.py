@@ -103,8 +103,8 @@ def isSwear(word, debug = False):
     else:
         return False
 
-def getVehicle(prompt, debug = False):
-    if debug: print("getVehicle Function")
+def getcarCompany(prompt, debug = False):
+    if debug: print("getcarCompany Function")
     
     goodInput = False
     
