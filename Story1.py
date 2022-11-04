@@ -41,6 +41,7 @@ def Story1(debug = False):
     out += " \n and we " + verb1
     out += " screaming " + thing1
     out += " until the rain stopped. The End. "
+    out += " You should try Story 4!"
     # ~ out += "Then we " + adverb1
     # ~ out += " \n went outside and " + pronoun1
     # ~ out += " We had to move to " + place2

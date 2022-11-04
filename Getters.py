@@ -31,6 +31,12 @@ def getMenuOption(debug = False):
             option == "story3"):
                 option = "3"
                 goodInput = True
+        elif (option == "4" or 
+            option == "four" or 
+            option == "story 4" or
+            option == "story4"):
+                option = "4"
+                goodInput = True
         
                 
             
@@ -189,6 +195,34 @@ def getcarCompany(prompt, debug = False):
             goodInput = False
             print ("UNACCEPTABLE")
         elif word.lower() not in carCompany:
+            goodInput = False
+            print ("INVALID")
+        
+    return word
+    
+def isSwear(word, debug = False):
+    if debug: print("isSwear Function")
+    if word.lower() in swearList:
+        return True
+    else:
+        return False
+
+
+def getNumber(prompt, debug = False):
+    if debug: print("getNumber Function")
+    
+    goodInput = False
+    
+    numbers = ["69"
+              ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("UNACCEPTABLE")
+        elif word.lower() not in numbers:
             goodInput = False
             print ("INVALID")
         
