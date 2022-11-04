@@ -219,4 +219,5 @@ swearList = ["poop",
              "sex",
              "fucked",
              "bitch",
+             "daddy",
 ]
