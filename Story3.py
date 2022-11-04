@@ -18,5 +18,6 @@ def Story3(debug = False):
     out += " We bought it and took it to the " + place1
     out += " and we used our new " + clothing1
     out += " \n which started a new fashion trend " 
+    out += " You should try Story 4!"
     
     return out

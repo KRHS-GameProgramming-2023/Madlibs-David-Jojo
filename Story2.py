@@ -22,5 +22,6 @@ def Story2(debug = False):
     out += " minutes for the E.M.T's to arrive at the " + building1
     out += " \n After the arriving "
     out += " the doctors diagnosed us with a " + injury1
+    out += " You should try Story 4!"
     
     return out
