@@ -109,8 +109,8 @@ def isSwear(word, debug = False):
     else:
         return False
 
-def getVehicle(prompt, debug = False):
-    if debug: print("getVehicle Function")
+def getcarCompany(prompt, debug = False):
+    if debug: print("getcarCompany Function")
     
     goodInput = False
     
@@ -128,16 +128,7 @@ def getcarCompany(prompt, debug = False):
     
     goodInput = False
     
-    carCompany =  ["car",
-						"truck",
-						"towtruck", 
-						"supercar", 
-						"racecar", 
-						"cruizer", 
-						"cop Car", 
-						"1969 plymouth cuda", 
-						"firetruck", 
-						"supra", 
+    carCompany =  ["car", 
 						"tesla", 
 						"bmw", 
 						"ferrari", 
@@ -262,4 +253,5 @@ swearList = ["poop",
              "sex",
              "fucked",
              "bitch",
+             "daddy",
 ]
