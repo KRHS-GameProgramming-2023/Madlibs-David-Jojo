@@ -122,16 +122,7 @@ def getcarCompany(prompt, debug = False):
     
     goodInput = False
     
-    carCompany =  ["car",
-						"truck",
-						"towtruck", 
-						"supercar", 
-						"racecar", 
-						"cruizer", 
-						"cop Car", 
-						"1969 plymouth cuda", 
-						"firetruck", 
-						"supra", 
+    carCompany =  ["car", 
 						"tesla", 
 						"bmw", 
 						"ferrari", 
