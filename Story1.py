@@ -31,7 +31,16 @@ def Story1(debug = False):
     # ~ verb4 = getWord("Enter a verb: ", debug)
     # ~ building1 = getWord("Enter a building: ", debug)
     
-          
+    print("\n\n")
+    print(r'''
+               \ /
+          |_O   X  O_\
+            |`-/ \-'\
+            |\     / |
+           /  |    |  \
+    ''')
+    print("\n\n")
+    
     
     out = "\n"
     out += "One day me and my friend " + friendName1
