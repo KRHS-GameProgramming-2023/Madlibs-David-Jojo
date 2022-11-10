@@ -30,7 +30,15 @@ def Story1(debug = False):
     # ~ adverb3 = getWord("Enter a adverb: ", debug)
     # ~ verb4 = getWord("Enter a verb: ", debug)
     # ~ building1 = getWord("Enter a building: ", debug)
-    
+    print("\n\n")
+    print('''
+		   \ /
+		  |_O   X  O_\
+			|`-/ \-'\
+			|\     / |
+	ejm    /  |    |  \
+    ''')
+    print("\n\n")
           
     
     out = "\n"
