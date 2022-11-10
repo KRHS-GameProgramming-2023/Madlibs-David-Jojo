@@ -180,8 +180,6 @@ def getcarCompany(prompt, debug = False):
 						"gmc",
 						"infiniti",
 						"lincoln",
-						"infiniti",
-						"lincoln",
 						"gm",
 						"pontiac",
 						"genesis",

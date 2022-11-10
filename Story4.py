@@ -9,7 +9,7 @@ def Story4(debug = False):
     
     
     out = "\n"
-    out += " Congraguloations you just won $3,000,000  " 
+    out += " Congratulations you just won $3,000,000  " 
 
     
     return out
