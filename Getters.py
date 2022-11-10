@@ -88,6 +88,7 @@ def getSport(prompt, debug = False):
               "kickball",
               "checkers",
               "bass fishing",
+              "darts",
               ]
     
     while not goodInput:
